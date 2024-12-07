@@ -1,0 +1,528 @@
+/* All Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Inter", serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common CSS End */
+
+
+/* Header Part Start */
+.navbar {
+    /* background: teal;
+    padding: 20px 0; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+
+    /* padding is not applicable here, coz parent div has already used it */
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #4756DF;
+}
+
+.contactBtn {
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart {
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerOverlay {
+    background: rgba(0, 0, 0, 0.62);
+    padding-top: 330px;
+    padding-bottom: 175px;
+}
+
+.bannerContent h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 60px;
+}
+
+.bannerContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 216px;
+    margin-bottom: 40px;
+}
+
+.bannerContent a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+
+    border-radius: 10px;
+    background: #6A4DF4;
+    padding: 15px 42px;
+}
+
+/* Banner Part End */
+
+
+/* Counter Part Start */
+#counterPart {
+    padding-top: 165px;
+    padding-bottom: 80px;
+}
+
+.counterBg {
+    background: #E0FFF9;
+    border-radius: 20px;
+    padding: 85px 0;
+}
+
+.counterItemLeft {
+    padding-left: 20px;
+
+}
+
+.counterItemLeft h4 {
+    color: #6A4DF4;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.counterItemLeft h3 {
+    color: #151515;
+    font-size: 35px;
+    font-weight: 600;
+    padding-right: 135px;
+    line-height: 37px;
+}
+
+.counterItemRight {
+    padding-top: 10px;
+}
+
+.counterItemRight h3 {
+    color: #151515;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.counterItemRight p {
+    color: #737373;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Counter Part End */
+
+
+/* Service Part Start */
+#servicePart {
+    padding: 100px 0;
+}
+
+.serviceHead {
+    margin-bottom: 55px;
+}
+
+.serviceHead h3 {
+    color: #151515;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.serviceHead p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.serviceItem {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 45px;
+    transition: .4s;
+}
+
+.serviceItemText h3 {
+    color: #151515;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+.serviceItemText p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.serviceItem:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+
+/* Service Part End */
+
+
+/* Work Part Start */
+#workPart {
+    padding-top: 155px;
+    padding-bottom: 150px;
+    background: #F3F3F3;
+}
+
+.workPartHead h3 {
+    color: #151515;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.workPartHead p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 113px;
+}
+
+.workItem {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.workItem img {
+    width: 100%;
+}
+
+.workItemText {
+    padding: 35px 48px;
+}
+
+.workItemText h4 {
+    padding-bottom: 15px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.workItemText p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Work Part End */
+
+/* Agenc Part Start */
+#agencPart {
+    padding-top: 158px;
+    padding-bottom: 110px;
+}
+
+.agencHead {}
+
+.agencHead h3 {
+    color: #151515;
+    font-size: 45px;
+    font-weight: 700;
+
+    line-height: 50px;
+    padding: 0 174px;
+    margin-bottom: 25px;
+}
+
+.agencHead p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    padding: 0 25px;
+    margin-bottom: 130px;
+}
+
+.agencItem {}
+
+.agencItem h3 {
+    color: #151515;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 22px 0;
+}
+
+.agencItem p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 73px;
+}
+
+/* Cmb = Customised margin bottom */
+.agencItemCmb {
+    margin-bottom: 88px;
+
+}
+
+/* Agenc Part End */
+
+/* Review Part Start */
+#reviewPart {
+    padding-bottom: 230px;
+}
+
+.reviewHead {}
+
+.reviewHead h3 {
+    color: #151515;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.reviewHead p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 130px;
+}
+
+.reviewItem {
+    padding: 53px;
+    transition: .4s;
+}
+
+.reviewItem i {
+    color: rgba(105, 77, 244, 0.4);
+    font-size: 80px;
+}
+
+.reviewItem p {
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.checked {
+    color: #F9BD2C;
+}
+
+.reviewItem:hover {
+    background: #F4EFEF;
+    border-radius: 30px;
+}
+
+.reviewItem:hover i {
+    color: rgba(105, 77, 244, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.profileText h4 {
+    color: #232323;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.profileText p {
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Review Part End */
+
+
+
+/* Contact Part Start */
+#contactPart {
+    background: #F3F3F3;
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+
+.contactLeft h3 {
+    color: #151515;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 27px;
+    padding-right: 183px;
+    padding-top: 158px;
+}
+
+.contactLeft p {
+    color: #7B7B7B;
+    /* To match the alignment of the paragraph, we need to change the font size (14px) from the given value (16px) in Figma file. */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 183px;
+    padding-bottom: 23px;
+}
+
+.contactForm {
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.myForm {
+    padding: 20px;
+}
+
+.contactFormHead h3 {
+    color: #151515;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+
+}
+
+.contactForm label {
+    color: #151515;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.myForm::placeholder {
+    color: #D0D0D0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.myBtn {
+    width: 100%;
+    color: #FFFFFF;
+    background: #6A4DF4;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 20px 0;
+}
+
+/* To avoid by default hover effect of the button class "btn" */
+.myBtn:hover {
+    color: #FFFFFF;
+    background: #6A4DF4;
+}
+
+/* Contact Part End */
+
+/* Footer Part Start */
+#footerPart {
+    padding-top: 145px;
+    padding-bottom: 40px;
+}
+
+.footerText p {
+    color: #7B7B7B;
+    /* To match the alignment of the paragraph, we need to change the font size (15px) from the given value (16px) in Figma file. */
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 78px;
+    margin-top: 35px;
+}
+
+.footerItem h3 {
+    color: #151515;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+/* By deafault, Bootstrap ol,ul get the padding-left:2rem, therefore, we need to make it 0 */
+.footerItem ul {
+    padding-left: 0;
+}
+
+.footerItem li a {
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+hr.footerBottomLine {
+    border-top: 2px solid #E8E8E8;
+}
+
+.footerBottomText p {
+    padding-top: 25px;
+    color: #D0D0D0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Footer Part End */

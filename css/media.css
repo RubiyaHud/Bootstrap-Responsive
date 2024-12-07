@@ -1,0 +1,318 @@
+/* Extra large devices */
+@media (min-width: 1200px) {}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Header Part Start */
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav {
+        background: #6A4DF4;
+        text-align: center;
+        border-radius: 10px;
+    }
+    /* Header Part End */
+    /* Banner Part Start */
+    .bannerOverlay {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .bannerContent h1 {
+        font-size: 35px;
+        padding-bottom: 35px;
+    }
+    .bannerContent p {
+        font-size: 15px;
+        padding: 0;
+    }
+    /* Banner Part End */
+    /* Counter Part Start */
+    #counterPart {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .counterItemLeft {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .counterItemLeft h3 {
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .counterItemRight {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    /* Counter Part End */
+
+    /* Service Part Start */
+    #servicePart {
+        padding: 50px 0;
+    }
+    .serviceHead h3 {
+        font-size: 43px;
+        line-height: 45px;
+    }
+    .serviceItem {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 40px;
+    }
+    .serviceItemText h3 {
+        font-size: 24px;
+    }
+    /* Service Part End */
+    
+    /* Work Part Start */
+    #workPart {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .workPartHead h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    /* Work Part End */
+
+    /* Agenc Part Start */
+    #agencPart {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .agencHead h3 {
+        font-size: 39px;
+        padding: 0;
+    }
+
+    .agencHead p {
+        margin-bottom: 60px;
+    }
+
+    .agencItem {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .agencItem p {
+        padding-right: 0;
+    }
+
+    .agencItemCmb {
+        margin-bottom: 20px;
+    }
+
+    /* Agenc Part End */
+
+}
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+
+    /* Header Part Start */
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        background: #6A4DF4;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    /* Header Part End */
+
+    /* Banner Part Start */
+    .bannerOverlay {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .bannerContent h1 {
+        font-size: 35px;
+        padding-bottom: 35px;
+    }
+
+    .bannerContent p {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    /* Banner Part End */
+
+    /* Counter Part Start */
+    #counterPart {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .counterItemLeft {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .counterItemLeft h3 {
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .counterItemRight {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    /* Counter Part End */
+
+    /* Service Part Start */
+    #servicePart {
+        padding: 50px 0;
+    }
+
+    .serviceHead h3 {
+        font-size: 43px;
+        line-height: 45px;
+    }
+
+    .serviceItem {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 40px;
+    }
+
+    .serviceItemText h3 {
+        font-size: 24px;
+    }
+
+    /* Service Part End */
+
+    /* Work Part Start */
+    #workPart {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .workPartHead h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    /* Work Part End */
+
+    /* Agenc Part Start */
+    #agencPart {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .agencHead h3 {
+        font-size: 39px;
+        padding: 0;
+    }
+    .agencHead p {
+        margin-bottom: 60px;
+    }
+    .agencItem {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .agencItem p {
+        padding-right: 0;
+    }
+    .agencItemCmb {
+        margin-bottom: 20px;
+    }
+    /* Agenc Part End */
+
+    /* Review Part Start */
+    #reviewPart {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    .reviewHead h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .reviewHead p {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .reviewItem {
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .reviewItem i {
+        font-size: 50px;
+    }
+    .profile {
+        display: block;
+    }
+    /* Review Part End */
+
+    /* Contact Part Start */
+    #contactPart {
+        padding-top: 0;
+        padding-bottom: 65px;
+    }
+    .contactLeft h3 {
+        font-size: 40px;
+        padding-right: 0;
+        padding-top: 95px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .contactLeft p {
+        font-size: 14px;
+        padding-right: 0;
+        text-align: center;
+    }
+    .contactFormHead h3 {
+        line-height: 35px;
+    }
+    .myForm {
+        padding: 10px;
+    }
+    .myBtn {
+        padding: 10px 0;
+    }
+    /* Contact Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 80px;
+    }
+    .footerText {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .footerText img{
+        padding-right: 30px;
+    }
+    .footerText p {
+        padding-right: 0;
+    }
+    .footerItem{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .footerItem h3 {
+        padding-bottom: 20px;
+    }
+    .footerItem li a {
+        line-height: 30px;
+    }
+    /* Footer Part End */
+}

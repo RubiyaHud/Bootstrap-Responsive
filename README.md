@@ -11,3 +11,4 @@ https://getbootstrap.com/docs/4.6/layout/overview/
   <span class="navbar-toggler-icon"></span>
 * Write CSS (at first in the extra small device @media) for the bar icon <i> in the media query file.
 * overflow-x:hidden; is written in the Common CSS ( to Remove the scroll bar bottom of the page)
+* Also, add "box-sizing: border-box;" in the Common CSS.

@@ -26,3 +26,4 @@ https://getbootstrap.com/docs/4.6/layout/overview/
     }
 * We need to make the padding:0 for **.bannerContent p**, if we just comment it then it will get the padding of the parent (by default)
 * How to change the background image for different screen sizes is shown in the class video.
+* We need to add **mb-3** in each **col-lg-4** for workItem, to make bottom space between them in Responsive view.

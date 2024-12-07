@@ -9,4 +9,4 @@ https://getbootstrap.com/docs/4.6/layout/overview/
 * Open the index.html file in Mozilla Firefox and press ctr+shift+m to get the Responsive view of the web page
 * Comment the below line in the header part and Use font awesome icon (bar icon) instead of the <span>
   <span class="navbar-toggler-icon"></span>
-* Write CSS for the bar icon <i> in the media query file.
+* Write CSS (at first in the extra small device @media) for the bar icon <i> in the media query file.

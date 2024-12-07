@@ -24,3 +24,4 @@ https://getbootstrap.com/docs/4.6/layout/overview/
   .navbar-collapse{
         text-align: center;
     }
+* We need to make the padding:0 for *.bannerContent p*, if we just comment it then it will get the padding of the parent (by default)

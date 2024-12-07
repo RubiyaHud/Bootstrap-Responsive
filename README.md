@@ -18,3 +18,9 @@ https://getbootstrap.com/docs/4.6/layout/overview/
 
   text-align: center;
   display: block;
+
+  OR,
+
+  .navbar-collapse{
+        text-align: center;
+    }

@@ -25,3 +25,4 @@ https://getbootstrap.com/docs/4.6/layout/overview/
         text-align: center;
     }
 * We need to make the padding:0 for **.bannerContent p**, if we just comment it then it will get the padding of the parent (by default)
+* How to change the background image for different screen sizes is shown in the class video.

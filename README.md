@@ -14,5 +14,6 @@ https://getbootstrap.com/docs/4.6/layout/overview/
 * Also, add "box-sizing: border-box;" in the Common CSS.
 * Now, inspect the page and modify the CSS classes (by overwriting them in the media query file) according to the screen size (inside @media)
 * Header Part -> To bring the Contact Button in the middle, we need to add the lines below:
+
   text-align: center;
   display: block;
